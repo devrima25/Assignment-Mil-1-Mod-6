@@ -180,3 +180,40 @@ section.services {
     padding: 0px 200px;
 }
 /* End-services-section-CSS */
+
+/* start_Hot-Deal_section-CSS */
+.Hot_Deal{
+    padding: 100px 200px;
+    background-color: #E554730D;
+   
+
+}
+.main_deal {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.deal-con h3 {
+    font-size: 35px;
+    margin-bottom: 13px;
+}
+.deal-con p {
+    text-align: center;
+    margin-bottom: 17px;
+}
+.deal-con span{
+    color: #E55473;
+}
+
+.deal_btn {
+    text-align: center;
+    margin-left: 189px;
+    padding: 13px 23px;
+    border: none;
+    text-transform: capitalize;
+    background: #E55473;
+    border-radius: 5px;
+}
+/* End_Hot-Deal_section-CSS */
+
