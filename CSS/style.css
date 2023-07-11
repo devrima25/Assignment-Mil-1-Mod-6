@@ -42,3 +42,70 @@ button {
     border-radius: 8px;
 }
 /* --------End-header-section---------- */
+
+
+/* start-Featured-section */
+.All_flowers{
+    padding:100px 200px;
+
+}
+
+.flower_content h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.flower_content p {
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.flower-mainDiv {
+    margin-top: 79px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.lili-flower {
+    background-color: #f2dee7;
+    width: 240px;
+    height: 300px;
+    text-align: center;
+    border-radius: 121px 121px   0px 0px;
+}
+.lili-flower img {
+    width: 109px;
+    margin-top: 58px;
+    height: 242px;
+}
+.inner-div h4 {
+    font-size: 12px;
+    border-bottom: 2px solid;
+}
+.pink_flower{
+    background: rgba(5, 151, 160, 0.15);
+    width: 240px;
+    height: 300px;
+    text-align: center;
+    border-radius: 121px 121px   0px 0px;
+}
+.pink_flower img{
+    width: 109px;
+    margin-top: 58px;
+    height: 242px;
+}
+.yello_flower{
+    background: rgba(71, 125, 17, 0.15);
+    width: 240px;
+    height: 300px;
+    text-align: center;
+    border-radius: 121px 121px   0px 0px;
+}
+.yello_flower img{
+    width: 109px;
+    margin-top: 58px;
+    height: 242px;
+
+}
+
+/* End-Featured-section */
