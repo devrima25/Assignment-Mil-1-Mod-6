@@ -7,6 +7,39 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+    /* ------nav_style------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+  }
+  
+  .nav_title {
+    color: #181818;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  nav span{
+    color: #E55473;
+  }
 
 /* --------start-header-section---------- */
 
@@ -108,4 +141,42 @@ button {
 
 }
 
-/* End-Featured-section */
+/* End-Featured-section-CSS */
+
+/* start-services-section-CSS */
+
+.main_service {
+    display: flex;
+    padding: 10px 200px;
+    justify-content: space-around;
+    background-color: #2727270D;
+    padding: 80px 0px;
+    width: 850px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 59px;
+}
+section.services {
+    padding: 40px 149px;
+}
+
+.service_item small {
+    position: relative;
+    top: 18px;
+    font-size: 9px;
+}
+.service_item img{
+    width: 40px;
+
+}
+.service_item small {
+    position: relative;
+    top: 25px;
+    left: -120px;
+    font-size: 7px;
+}
+.ser-tile{
+    display: flex;
+    padding: 0px 200px;
+}
+/* End-services-section-CSS */
