@@ -1,0 +1,31 @@
+/* full body style  */
+body{
+    font-family: 'Kaisei Decol', serif;
+font-family: 'Lato', sans-serif;
+}
+
+/* header section style */
+.main-header{
+    display: flex;
+    width: 1920px;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header-content{
+
+}
+
+.header-title{
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    
+
+.header-img{
+    width: 635px;
+    height: 800px;
+    margin: 50px 0 0 240px;
+
+}
