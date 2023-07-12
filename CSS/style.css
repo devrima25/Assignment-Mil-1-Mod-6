@@ -13,6 +13,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+    height: 100px;
+    
   }
   
   nav ul {
