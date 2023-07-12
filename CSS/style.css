@@ -217,3 +217,32 @@ section.services {
 }
 /* End_Hot-Deal_section-CSS */
 
+/* start-Instagram-section-CSS */
+.Instagram {
+    text-align: center;
+    padding: 57px;
+}
+.Instagram h4{
+    font-size: 35px;
+    margin-bottom: 11px;
+}
+.Instagram p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.Instagram-main{
+    display: flex;
+    gap: 35px;
+
+}
+.Instagram-box{
+    width: 259px;
+    height: 318px;
+
+}
+.Instagram-box img {
+    width: 259px;
+    height: 318px;
+}
+/* End-Instagram-section-CSS */
+
