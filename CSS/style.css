@@ -2,12 +2,12 @@
     padding: 0;
     margin: 0;
 }
-/* ------googleFonts ---- cssLink------ */
+/* ------googleFontsLink ---- CSS------ */
 body{
     font-family: 'Lato', sans-serif;
 }
 
-    /* ------nav_style------- */
+    /* ------start_nav_style------- */
 nav {
     display: flex;
     justify-content: space-between;
@@ -40,8 +40,10 @@ nav {
   nav span{
     color: #E55473;
   }
+   /* ------End_nav_style------- */
 
-/* --------start-header-section---------- */
+
+/* --------start-header-section--CSS--------- */
 
 .header_banner{
     display: flex;
@@ -51,8 +53,9 @@ nav {
 
 }
 .header_bannar_img img{
-    width: 400px;
     height: auto;
+    width: 400px;
+    
 }
 
 .header_bannar_inner h2 {
@@ -68,94 +71,125 @@ nav {
 
 button {
     border: none;
-    text-transform: capitalize;
     background: #E55473;
     padding: 14px;
     color: white;
     border-radius: 8px;
+   
+   
 }
-/* --------End-header-section---------- */
+/* --------End-header-section--CSS---------- */
 
 
-/* start-Featured-section */
+/* start-Featured-section -CSS*/
 .All_flowers{
     padding:100px 200px;
 
 }
 
 .flower_content h3 {
-    text-align: center;
     font-size: 22px;
     margin-bottom: 10px;
-}
-.flower_content p {
     text-align: center;
+    
+}
+
+.flower_content p {
     line-height: 22px;
     margin-bottom: 10px;
-}
-.flower-mainDiv {
-    margin-top: 79px;
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-}
-.lili-flower {
-    background-color: #f2dee7;
-    width: 240px;
-    height: 300px;
     text-align: center;
-    border-radius: 121px 121px   0px 0px;
+   
 }
+
+.flower-mainDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+    gap: 30px;
+}
+    
+.lili-flower {
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    background-color: #f2dee7;
+    border-radius: 121px 121px   0px 0px;
+   
+}  
+   
+    
+
 .lili-flower img {
-    width: 109px;
-    margin-top: 58px;
     height: 242px;
+    margin-top: 58px;
+   
+    
 }
 .inner-div h4 {
     font-size: 12px;
     border-bottom: 2px solid;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 .pink_flower{
-    background: rgba(5, 151, 160, 0.15);
-    width: 240px;
     height: 300px;
+    width: 250px;
     text-align: center;
+    background: rgba(5, 151, 160, 0.15);
     border-radius: 121px 121px   0px 0px;
+    
 }
+    
+    
+
 .pink_flower img{
-    width: 109px;
-    margin-top: 58px;
     height: 242px;
+    margin-top: 58px;
+    
+   
 }
 .yello_flower{
-    background: rgba(71, 125, 17, 0.15);
-    width: 240px;
     height: 300px;
+    width: 250px;
     text-align: center;
+    background: rgba(71, 125, 17, 0.15);
     border-radius: 121px 121px   0px 0px;
+   
 }
+    
+    
+    
+    
 .yello_flower img{
-    width: 109px;
-    margin-top: 58px;
     height: 242px;
+    margin-top: 58px;
+   
 
 }
 
 /* End-Featured-section-CSS */
 
+
+
 /* start-services-section-CSS */
 
 .main_service {
     display: flex;
-    padding: 10px 200px;
     justify-content: space-around;
-    background-color: #2727270D;
-    padding: 80px 0px;
     width: 850px;
     margin: auto;
+    padding: 80px 0px;
     border-radius: 5px;
     margin-bottom: 59px;
+    background-color: #2727270D;
+    
+   
 }
+    
+   
+
 section.services {
     padding: 40px 149px;
 }
@@ -167,6 +201,7 @@ section.services {
 }
 .service_item img{
     width: 40px;
+    margin-left: 80px;
 
 }
 .service_item small {
@@ -180,6 +215,7 @@ section.services {
     padding: 0px 200px;
 }
 /* End-services-section-CSS */
+
 
 /* start_Hot-Deal_section-CSS */
 .Hot_Deal{
@@ -196,11 +232,11 @@ section.services {
 
 .deal-con h3 {
     font-size: 35px;
-    margin-bottom: 13px;
+    margin-bottom: 16px;
 }
 .deal-con p {
     text-align: center;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 .deal-con span{
     color: #E55473;
@@ -215,7 +251,14 @@ section.services {
     background: #E55473;
     border-radius: 5px;
 }
+
+/* .deal-img{
+    height: 415px;
+    weight:150px;
+} */
+
 /* End_Hot-Deal_section-CSS */
+
 
 /* start-Instagram-section-CSS */
 .Instagram {
@@ -224,7 +267,7 @@ section.services {
 }
 .Instagram h4{
     font-size: 35px;
-    margin-bottom: 11px;
+    margin-bottom: 12px;
 }
 .Instagram p {
     font-size: 15px;
@@ -236,15 +279,19 @@ section.services {
 
 }
 .Instagram-box{
-    width: 259px;
     height: 318px;
+    width: 259px;
+    
 
 }
 .Instagram-box img {
-    width: 259px;
     height: 318px;
+    width: 259px;
+    
 }
 /* End-Instagram-section-CSS */
+
+
 
 /* start-Latest Deals-section-CSS */
 .Latest_Deal{
@@ -255,7 +302,7 @@ section.services {
     background-image: url('../Flower Asset/Rectangle 9.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 78px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -280,18 +327,24 @@ section.services {
 
 /* start-footer-section-CSS*/
 footer{
-    padding: 40px;
-    text-align: center;
-    background-color: black;
     color: white;
+    background-color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 100px;
+   
+    
+    
+    
 }
 footer h4 {
     font-size: 33px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 footer h5 {
+    color: #d8cbcb;
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    line-height: 20px;
 }
 
 footer span{
@@ -299,6 +352,9 @@ footer span{
 }
 
 footer h6{
-    color: rgba(255, 255, 255, 0.1;
+    color: #424141;
+    margin-top:40px
+    margin-bottom: 20px;
+
 }
 /* End-footer-section-CSS */
